@@ -1,16 +1,4 @@
-## NAME:
-## NETID: 
 
-################
-## Code for HW 1 problem 1
-##
-## INSTRUCTIONS:
-## The following file implements the ISTA algorithm for lasso and applies
-## lasso on a stock data set.
-## 
-## Fill in the code in parts labeled "FILL IN". 
-##
-################
 
 lassoISTA <- function(X, Y, lambda){
   THRESH = 1e-15
